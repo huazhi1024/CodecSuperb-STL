@@ -6,7 +6,9 @@ This is a brief description of how to use my trained models to test the CodecSup
 - [Introduction](#introduction)
 - [Environment Setup](#environment-setup)
 - [Usage](#usage)
+- [MyResults](#my results)
 - [Contact](#contact)
+
 
 ## Introduction
 My training framework is based on [descriptinc/descript-audio-codec](https://github.com/descriptinc/descript-audio-codec?tab=readme-ov-file). For the audio provided in the openset with different sample rates (16kHz, 44.1kHz, 48kHz), I have trained the following three models:
@@ -72,6 +74,9 @@ git clone https://github.com/huazhi1024/codecsuperb-stl.git
    ```sh
    python zhy_test_codecsuperb_all.py
    ```
+
+## MyResults
+My final test results are in result1.txt and result2.txt in this project.
 
 ## Contact
 If you have any questions or need further assistance, please contact me at: hyzhang20@whu.edu.cn.

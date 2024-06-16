@@ -1,0 +1,155 @@
+Log results
+--------------------------------------------------
+File Name: crema_d.log
+Codec SUPERB objective metric evaluation on crema_d
+
+Stage 1: Run SDR evaluation.
+SDR: mean score is: 12.264864005831004
+
+Stage 2: Run Mel Spectrogram Loss.
+mel_loss: mean score is: 0.46461612
+
+Stage 3: Run STOI.
+stoi: mean score is: 0.9201546369667847
+
+Stage 4: Run PESQ.
+pesq: mean score is: 2.9032970213890077
+--------------------------------------------------
+File Name: esc50.log
+Codec SUPERB objective metric evaluation on esc50
+
+Stage 1: Run SDR evaluation.
+SDR: mean score is: 6.726699210213638
+
+Stage 2: Run Mel Spectrogram Loss.
+mel_loss: mean score is: 0.89280885
+--------------------------------------------------
+File Name: fluent_speech_commands.log
+Codec SUPERB objective metric evaluation on fluent_speech_commands
+
+Stage 1: Run SDR evaluation.
+SDR: mean score is: 8.476522537066758
+
+Stage 2: Run Mel Spectrogram Loss.
+mel_loss: mean score is: 0.75807977
+
+Stage 3: Run STOI.
+stoi: mean score is: 0.9238519743607232
+
+Stage 4: Run PESQ.
+pesq: mean score is: 2.8522612583637237
+--------------------------------------------------
+File Name: fsd50k.log
+Codec SUPERB objective metric evaluation on fsd50k
+
+Stage 1: Run SDR evaluation.
+SDR: mean score is: 6.95385805941422
+
+Stage 2: Run Mel Spectrogram Loss.
+mel_loss: mean score is: 0.8306656
+--------------------------------------------------
+File Name: gunshot_triangulation.log
+Codec SUPERB objective metric evaluation on gunshot_triangulation
+
+Stage 1: Run SDR evaluation.
+SDR: mean score is: 8.291245593533532
+
+Stage 2: Run Mel Spectrogram Loss.
+mel_loss: mean score is: 0.95218104
+--------------------------------------------------
+File Name: libri2Mix_test.log
+Codec SUPERB objective metric evaluation on libri2Mix_test
+
+Stage 1: Run SDR evaluation.
+SDR: mean score is: 4.233350120341239
+
+Stage 2: Run Mel Spectrogram Loss.
+mel_loss: mean score is: 0.7518116
+
+Stage 3: Run STOI.
+stoi: mean score is: 0.9050623419177468
+
+Stage 4: Run PESQ.
+pesq: mean score is: 2.0071350967884065
+--------------------------------------------------
+File Name: librispeech.log
+Codec SUPERB objective metric evaluation on librispeech
+
+Stage 1: Run SDR evaluation.
+SDR: mean score is: 7.751003745240329
+
+Stage 2: Run Mel Spectrogram Loss.
+mel_loss: mean score is: 0.72347593
+
+Stage 3: Run STOI.
+stoi: mean score is: 0.9340773701364049
+
+Stage 4: Run PESQ.
+pesq: mean score is: 2.903846046924591
+--------------------------------------------------
+File Name: quesst.log
+Codec SUPERB objective metric evaluation on quesst
+
+Stage 1: Run SDR evaluation.
+SDR: mean score is: 8.4340708735918
+
+Stage 2: Run Mel Spectrogram Loss.
+mel_loss: mean score is: 0.8294336
+
+Stage 3: Run STOI.
+stoi: mean score is: 0.8863192140533341
+
+Stage 4: Run PESQ.
+pesq: mean score is: 2.6509935235977173
+--------------------------------------------------
+File Name: snips_test_valid_subset.log
+Codec SUPERB objective metric evaluation on snips_test_valid_subset
+
+Stage 1: Run SDR evaluation.
+SDR: mean score is: 9.542545404819807
+
+Stage 2: Run Mel Spectrogram Loss.
+mel_loss: mean score is: 0.7959907
+
+Stage 3: Run STOI.
+stoi: mean score is: 0.9531058100873113
+
+Stage 4: Run PESQ.
+pesq: mean score is: 2.7776152551174165
+--------------------------------------------------
+File Name: voxceleb1.log
+Codec SUPERB objective metric evaluation on voxceleb1
+
+Stage 1: Run SDR evaluation.
+SDR: mean score is: 6.524681732109078
+
+Stage 2: Run Mel Spectrogram Loss.
+mel_loss: mean score is: 0.71494424
+
+Stage 3: Run STOI.
+stoi: mean score is: 0.8977601804462474
+
+Stage 4: Run PESQ.
+pesq: mean score is: 2.5823002088069917
+--------------------------------------------------
+File Name: vox_lingua_top10.log
+Codec SUPERB objective metric evaluation on vox_lingua_top10
+
+Stage 1: Run SDR evaluation.
+SDR: mean score is: 13.074802660696786
+
+Stage 2: Run Mel Spectrogram Loss.
+mel_loss: mean score is: 0.49565125
+
+Stage 3: Run STOI.
+stoi: mean score is: 0.9516724002511663
+
+Stage 4: Run PESQ.
+pesq: mean score is: 2.9390562558174134
+--------------------------------------------------
+Average SDR for speech datasets: 8.7877301349621
+Average Mel_Loss for speech datasets: 0.69175040125
+Average STOI for speech datasets: 0.9215004910274648
+Average PESQ for speech datasets: 2.7020630833506587
+Average SDR for audio datasets: 7.323934287720463
+Average Mel_Loss for audio datasets: 0.8918851633333333

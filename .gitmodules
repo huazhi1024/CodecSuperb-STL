@@ -1,0 +1,3 @@
+[submodule "codecsuperb_src/src/AEC/CLAP"]
+	path = codecsuperb_src/src/AEC/CLAP
+	url = https://github.com/microsoft/CLAP.git

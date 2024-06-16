@@ -6,12 +6,12 @@ This is a brief description of how to use my trained models to test the CodecSup
 - [Introduction](#introduction)
 - [Environment Setup](#environment-setup)
 - [Usage](#usage)
-- [MyResults](#my results)
+- [MyResults](#myresults)
 - [Contact](#contact)
 
 
 ## Introduction
-My training framework is based on [descriptinc/descript-audio-codec](https://github.com/descriptinc/descript-audio-codec?tab=readme-ov-file). For the audio provided in the openset with different sample rates (16kHz, 44.1kHz, 48kHz), I have trained the following three models:
+My training framework is based on [descriptinc/descript-audio-codec](https://github.com/descriptinc/descript-audio-codec?tab=readme-ov-file)  with some modifications. For the audio provided in the openset with different sample rates (16kHz, 44.1kHz, 48kHz), I have trained the following three models:
 
 - **16kHz Model**: `16khz_320d4q_2kbps_weights.pth`
   - enc_ratios: [2, 4, 5, 8]

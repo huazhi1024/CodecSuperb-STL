@@ -284,7 +284,16 @@ class CodecMixin:
 
         recons.normalize(obj.input_db)
         resample_fn(obj.sample_rate)
-        recons = recons[..., : obj.original_length]
+        #recons = recons[..., : obj.original_length]
+        ##########################################
+        if obj.original_length <= recons.audio_data.shape[-1]:
+            recons = recons[..., : obj.original_length]
+        else:
+            recons.audio_data = torch.nn.functional.pad(
+                recons.audio_data, (0, obj.original_length - recons.audio_data.shape[-1])
+            )
+        
+        #########################################
         loudness_fn()
         recons.audio_data = recons.audio_data.reshape(
             -1, obj.channels, obj.original_length

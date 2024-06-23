@@ -101,7 +101,7 @@ git clone https://github.com/huazhi1024/codecsuperb-stl.git
 
 ## MyResults
 
-Our final results are stored in the `result` directory. Each model has two corresponding results: `exps/results.txt` and `src/codec_metrics/exps/results.txt`. In total, there are six results.
+Our final results are stored in the `submit_results` directory. Each model has two corresponding results files: `exps/results.txt` and `src/codec_metrics/exps/results.txt`. For three codec models, this amounts to a total of six results files.
 
 ## Contact
 
